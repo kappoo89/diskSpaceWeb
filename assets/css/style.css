@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	background-color: #ececec;
+	font-family: sans-serif;	  	
+}
+
+.wrapper{
+	display: block;
+	width: 90%;
+	margin: 5%;
+}
+	
+#ssdLogo{
+	margin-right: 25px;
+	margin-bottom: 25px;
+	display: inline;
+	float: left;
+}
+
+#totalSpaceText{
+	display: inline;
+	float: left;				
+}
+
+#totalSpaceTitle{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+#totalSpaceValue{
+	font-size: 25px;	
+	font-weight: 100;
+}
+
+
+#diskBar {
+	width: 100%;
+	background-color: white;
+	border: 1px solid #dadada;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 10px 0;   
+	display: block;   
+}
+
+#usedBar {
+	display block;
+	background: #27bcf7;
+	text-align: right;
+	height: 50px;
+	
+}
+
+.diskData{
+	display: inline;
+}
+
+#usedSpace{
+	float: left;
+}
+
+#freeSpace{
+	float: right;				
+}
+
+.dot{
+	display: inline;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-top: 1px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#dotUsed{
+    background-color: #27bcf7;
+}
+
+#dotFree{
+	background-color: #fff;
+}			
+
+.diskDataTesto{
+	display: inline;
+	float: right;				
+
+}
+
+.diskDataTestoNome{
+	display: block;
+	line-height: 15px;
+	font-weight: 900;
+}			
+
+.diskDataTestoValore{
+	display: block;
+	font-weight: 100;
+	line-height: 30px;
+}
